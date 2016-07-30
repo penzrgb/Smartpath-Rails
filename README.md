@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# Smartpath-Rails
+SmartPath Rails API
+>>>>>>> 85260a2d972aa2c0c7f1de408579ebadc4f8fbe5
