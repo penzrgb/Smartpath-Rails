@@ -1,29 +1,14 @@
-<<<<<<< HEAD
-# README
+This is a rails api for the smartpath project:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Add the header:
+Content-Type: application/json
 
-Things you may want to cover:
+Request:
 
-* Ruby version
+`http://localhost:3000/trees` to get a list of all the trees:
 
-* System dependencies
+`[{"id":1,"latitude":-38.14571292,"longitude":144.365187}]`
 
-* Configuration
+`http://localhost:3000/trees/[id]` to get data on a single tree:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
-# Smartpath-Rails
-SmartPath Rails API
->>>>>>> 85260a2d972aa2c0c7f1de408579ebadc4f8fbe5
+`{"id":1,"latitude":-38.14571292,"longitude":144.365187}`
