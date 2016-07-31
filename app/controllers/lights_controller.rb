@@ -14,7 +14,9 @@ class LightsController < ApplicationController
 
   def bounds
     data = params[:data]
-    render :json => Light.InsideArea(data[:latTopLeft], data[:longTopLeft], data[:latBottomRight], data[:longBottomRight])
+    lights = Light.InsideArea(data[:latTopLeft], data[:longTopLeft], data[:latBottomRight], data[:longBottomRight])
+
+    render :json => lights.sample(100)
   end
 
   # GET /lights/new
