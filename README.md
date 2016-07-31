@@ -18,10 +18,10 @@ Request:
 ```
 {
     "data": {
-        "latTopLeft": -1000,
-        "longTopLeft": -1000,
-        "latBottomRight": 1000,
-        "longBottomRight": 1000
+        "latTopLeft": -37.969343124789631,
+        "longTopLeft": 144.50660135596991,
+        "latBottomRight": -38.366665165342809,
+        "longBottomRight": 144.22233011573553
     }
 }
 ```
