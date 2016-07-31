@@ -14,7 +14,9 @@ class TreesController < ApplicationController
 
   def bounds
     data = params[:data]
-    render :json => Tree.InsideArea(data[:latTopLeft], data[:longTopLeft], data[:latBottomRight], data[:longBottomRight])
+    trees = Tree.InsideArea(data[:latTopLeft], data[:longTopLeft], data[:latBottomRight], data[:longBottomRight])
+    
+    render :json => trees.sample(100)
   end
 
   # GET /trees/new
