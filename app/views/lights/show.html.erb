@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @light.type %>
+</p>
+
+<p>
+  <strong>Power:</strong>
+  <%= @light.power %>
+</p>
+
+<p>
+  <strong>Pole:</strong>
+  <%= @light.pole %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @light.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @light.longitude %>
+</p>
+
+<%= link_to 'Edit', edit_light_path(@light) %> |
+<%= link_to 'Back', lights_path %>
