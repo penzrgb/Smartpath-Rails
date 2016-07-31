@@ -136,6 +136,7 @@ DEPENDENCIES
   active_model_serializers (~> 0.10.0)
   georuby
   listen
+  nokogiri
   pg
   pry
   rails (~> 5.0.0)

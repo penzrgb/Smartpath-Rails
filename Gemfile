@@ -9,6 +9,8 @@ gem 'spring', :group => :development
 
 gem 'pry'
 
+gem 'nokogiri'
+
 
 gem 'sqlite3'
 
