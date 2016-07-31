@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  resources :lights do
+    collection do
+      post 'bounds'
+    end
+  end
   resources :trees do
     collection do
       post 'bounds'
