@@ -5,6 +5,8 @@ gem 'rails', '~> 5.0.0'
 
 gem 'spring', :group => :development
 
+gem 'pry'
+
 
 gem 'sqlite3'
 

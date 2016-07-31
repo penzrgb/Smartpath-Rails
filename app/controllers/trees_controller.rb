@@ -12,6 +12,11 @@ class TreesController < ApplicationController
     render :json => Tree.find(params[:id])
   end
 
+  def bounds
+    data = params[:data]
+    render :json => Tree.InsideArea(data[:latTopLeft], data[:longTopLeft], data[:latBottomRight], data[:longBottomRight])
+  end
+
   # GET /trees/new
   def new
     @tree = Tree.new
